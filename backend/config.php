@@ -4,11 +4,13 @@
 // ==========================================
 
 
+// ==========================================
 // Gemini API Configuration
+// ==========================================
 
 define(
     "GEMINI_API_KEY",
-    "AQ.Ab8RN6LMaEh49Eceu27Z0tXgfOVSssvRcycptp6Nonjd5GWC4g"
+    getenv("AQ.Ab8RN6LMaEh49Eceu27Z0tXgfOVSssvRcycptp6Nonjd5GWC4g")
 );
 
 define(
@@ -17,26 +19,30 @@ define(
 );
 
 
-
+// ==========================================
 // Upload Folder
+// ==========================================
 
 define(
     "UPLOAD_FOLDER",
-    "../uploads/"
+    "uploads/"
 );
 
 
-
+// ==========================================
 // Tesseract Path
+// ==========================================
+// Render Linux path
 
 define(
     "TESSERACT_PATH",
-    "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+    "/usr/bin/tesseract"
 );
 
 
-
+// ==========================================
 // Maximum Upload Size
+// ==========================================
 
 define(
     "MAX_FILE_SIZE",
@@ -44,13 +50,19 @@ define(
 );
 
 
-
+// ==========================================
 // Allowed Extensions
+// ==========================================
 
 $allowedExtensions = [
     "pdf",
     "txt",
+    "doc",
     "docx",
+    "ppt",
+    "pptx",
+    "xls",
+    "xlsx",
     "png",
     "jpg",
     "jpeg",
@@ -60,3 +72,6 @@ $allowedExtensions = [
 ];
 
 ?>
+
+
+
