@@ -12,9 +12,7 @@ define(
     "GEMINI_API_KEY",
     getenv("AQ.Ab8RN6JSdvA3moRoTs41Zd2P6JyRnxCY55m0FwOpxhFoviVP2Q")
 );
-echo "ENV KEY: ";
-echo getenv("GEMINI_API_KEY");
-exit;
+
 
 define(
     "GEMINI_MODEL",
