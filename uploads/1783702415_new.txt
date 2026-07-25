@@ -1,0 +1,4 @@
+Java is an object-oriented programming language.
+HTML is used to create web pages.
+CSS is used for styling websites.
+JavaScript adds interactivity to websites.
