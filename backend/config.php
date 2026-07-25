@@ -8,7 +8,7 @@
 
 define(
     "GEMINI_API_KEY",
-    "YOUR_GEMINI_API_KEY"
+    "AQ.Ab8RN6LMaEh49Eceu27Z0tXgfOVSssvRcycptp6Nonjd5GWC4g"
 );
 
 define(
