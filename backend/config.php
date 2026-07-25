@@ -10,7 +10,7 @@
 
 define(
     "GEMINI_API_KEY",
-    getenv("AQ.Ab8RN6LMaEh49Eceu27Z0tXgfOVSssvRcycptp6Nonjd5GWC4g")
+    getenv("AQ.Ab8RN6JSdvA3moRoTs41Zd2P6JyRnxCY55m0FwOpxhFoviVP2Q")
 );
 
 define(
