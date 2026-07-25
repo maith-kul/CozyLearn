@@ -16,7 +16,7 @@ function askGemini($prompt)
 {
 
 
-    $apiKey = GEMINI_API_KEY;
+    $apiKey = getenv("GEMINI_API_KEY");
 
 
     if(empty($apiKey))
