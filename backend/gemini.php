@@ -135,13 +135,7 @@ function askGemini($prompt)
 
 
 
-   echo "<pre>";
-echo "URL:\n";
-echo $url;
-echo "\n\nRESPONSE:\n";
-echo $response;
-echo "</pre>";
-exit;
+   return $response;
 
 
 
