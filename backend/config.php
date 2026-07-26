@@ -72,7 +72,7 @@ $allowedExtensions = [
     "gif"
 ];
 
-?>
+
 
 
 
