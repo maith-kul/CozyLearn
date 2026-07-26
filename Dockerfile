@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     libpng-dev
     tesseract-ocr \
-    && docker-php-ext-install zip
+   && docker-php-ext-install zip gd
 
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
