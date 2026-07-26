@@ -10,7 +10,7 @@ ini_set('display_errors', 1);
 // ==========================================
 
 require_once __DIR__ . "/backend/config.php";
-require_once __DIR__ . "/backend/ocr.php";
+// require_once __DIR__ . "/backend/ocr.php";
 require_once __DIR__ . "/backend/gemini.php";
 require_once __DIR__ . "/backend/prompt.php";
 require_once __DIR__ . "/backend/parser.php";
